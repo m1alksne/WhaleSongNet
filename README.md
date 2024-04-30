@@ -85,7 +85,19 @@ WhaleSongNet/
 	```python src/data/download_data.py```
 
 5. Preprocess the Data:
+
 	a. ```python src/data/make_hotclips.py```
+
 	b. ``` python src/data/make_dataset.py```
 
+6. Train the Model:
 
+	```python src/models/train.py```
+
+7. Evaluate Model Performance:
+
+	``python src/models/evaluate_model.py```
+
+8. Make Predictions:
+
+	```python src/models/predict.py```
