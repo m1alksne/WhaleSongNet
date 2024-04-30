@@ -90,8 +90,15 @@ print("Training A call counts balanced:", val_clips_final['A NE Pacific'].value_
       "Training B call balanced:", val_clips_final['B NE Pacific'].value_counts())
 val_clips_final.to_csv(save_path / "validation.csv",index=True)
 
-# here's where we could do something for the test data, but for now we'll leave it as is. 
-test_clips.to_csv(save_path / "test.csv")
-        
-        
+# We'll run the model on a subset of the test data 
 
+# Filter the data where either 'A NE Pacific' or 'B NE Pacific' is 1
+filtered_test = test_clips[(test_clips['A NE Pacific'] == 1) | (test_clips['B NE Pacific'] == 1)]
+print(filtered_test.head())
+noise_indices = test_clips.index[(test_clips['A NE Pacific'] == 0) & (test_clips['B NE Pacific'] == 0)]
+random_noise_indices = random.sample(noise_indices.tolist(), 500) # random sample subset of the empty examples
+test_clips_noise = test_clips.iloc[random_noise_indices] # subset by these indices
+test_clips_final = pd.concat([filtered_test, test_clips_noise]) # concatenate dataframes
+test_clips_final.to_csv(save_path / "test.csv", index=False)
+        
+        

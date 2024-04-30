@@ -52,34 +52,6 @@ def main():
     #save output 
     #test_all.to_csv(repo_path/'labeled_data'/'train_val_test_clips'/'test_clips_prediction.csv')
     
-    ## A CALLS ###
-
-    #plot precision recall curve for A calls
-    precision, recall, thresholds = precision_recall_curve(test_all['A NE Pacific'], test_all['pred_A'])
-    fig, ax = plt.subplots()
-    ax.plot(recall, precision, color='purple')
-    #add axis labels to plot
-    ax.set_title('Precision-Recall Curve A calls test data')
-    ax.set_ylabel('Precision')
-    ax.set_xlabel('Recall')
-    #display plot
-    plt.savefig('../../reports/figures/A_call_PR_curve.png', format='png', bbox_inches='tight', pad_inches=0.1)
-    plt.show()
-
-    # plot score distribution A calls 
-    A_eval_index = test_all.index[test_all['A NE Pacific']==1]
-    A_eval = test_all.loc[A_eval_index]
-    A_noise_index = test_all.index[test_all['A NE Pacific']==0]
-    A_noise = test_all.loc[A_noise_index]
-    plt.hist(A_noise['pred_A'],bins=40,alpha=0.5,edgecolor='black',color='blue',label='Noise prediction score')
-    plt.hist(A_eval['pred_A'],bins=40,alpha=0.5,edgecolor='black',color='orange',label='A call prediction score')
-    plt.xlabel('Value')
-    plt.ylabel('Frequency')
-    plt.semilogy()
-    plt.title('A call prediction scores test data')
-    plt.savefig('../../reports/figures/A_call_prediction_histogram.png', format='png', bbox_inches='tight', pad_inches=0.1)
-    plt.legend(loc='upper right')
-
     ## B CALLS ###
 
     # plot precision recall curve for B calls
@@ -90,7 +62,6 @@ def main():
     ax.set_title('Precision-Recall Curve B calls test data')
     ax.set_ylabel('Precision')
     ax.set_xlabel('Recall')
-    #display plot
     plt.savefig('../../reports/figures/B_call_PR_curve.png', format='png', bbox_inches='tight', pad_inches=0.1)
     plt.show()
 
@@ -104,10 +75,10 @@ def main():
     plt.xlabel('Value')
     plt.ylabel('Frequency')
     plt.semilogy()
+    plt.legend(loc='upper right')
     plt.title('B call prediction scores test data')
     plt.savefig('../../reports/figures/B_call_prediction_histogram.png', format='png', bbox_inches='tight', pad_inches=0.1)
 
-    plt.legend(loc='upper right')
     
     
 # Ensure that this is the entry point of your script

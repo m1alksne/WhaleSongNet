@@ -67,13 +67,13 @@ WhaleSongNet/
 
 2. (optional) Create a Virtual Environment:
 
-	```conda create -n whalesongnet python=3.8```
+	```conda create -n whalesongnet python=3.9```
 
 	```conda activate whalesongnet```
 
 3. Install Dependencies:
 
-	```conda install --file requirements.txt```
+	```pip install opensoundscape==0.9.1```
 
 ## Prepare the Data
 
@@ -106,7 +106,7 @@ WhaleSongNet/
 
 ## User information 
 
-The training, validation, and testing clips are already included along with each epoch of the model. Depending on the use-case, step 5-6 may not be necessary. The trained model and the surrounding data processing and evaluation workflows are meant to be used for educational purposes. This workflow is flexible and model hyper-parameters are easy to fine-tune (in the train.py script). The overall workflow can also be modified to retrain the model on a different acoustic dataset, which has implications for broadening the scope of computer vision accessibility to the bioacousitcs community!
+The training, validation, and testing clips are already included along with each epoch of the model. Depending on the use-case, step 5-6 may not be necessary. The trained model and surrounding data processing and evaluation workflows are meant to be used for educational purposes. This workflow is flexible and model hyper-parameters are easy to fine-tune (in the train.py script). The overall workflow can also be modified to retrain the model on a different acoustic dataset, which has implications for broadening the scope of computer vision accessibility to the bioacousitcs community!
 
 To visualize labeled spectrograms:
 
