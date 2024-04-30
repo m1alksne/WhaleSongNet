@@ -100,7 +100,7 @@ WhaleSongNet/
 
 7. Evaluate Model Performance:
 
-	``python src/models/evaluate_model.py```
+	```python src/models/evaluate_model.py```
 
 8. Make Predictions:
 
