@@ -14,7 +14,6 @@ Central and Southern California High Frequency Acoustic Recording Package (HARP)
 ```
 WhaleSongNet/
 ├── LICENSE
-├── Makefile           <- Makefile with commands like `make data` or `make train`
 ├── README.md          <- The top-level README for users.
 ├── data
 │   ├── interim        <- Intermediate data that has been transformed.
