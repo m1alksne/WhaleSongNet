@@ -65,7 +65,7 @@ WhaleSongNet/
 
 	```cd WhaleSongNet```
 
-2. (optional) Create a Virtual Environment:
+2. Create a Virtual Environment:
 
 	```conda create -n whalesongnet python=3.9```
 
