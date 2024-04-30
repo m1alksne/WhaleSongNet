@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ![Blue whale fluking](https://github.com/m1alksne/WhaleSongNet/blob/main/reports/figures/blue_whale_CalCOFI.JPG)
-Blue whale fluking up off the coast of San Diego
+Blue whale off the coast of San Diego
 
 Photo credit: Katherine Whitaker
 
@@ -14,10 +14,6 @@ This repository details how to train, validate, and test a ResNet-18 CNN to clas
 
 ## Central and Southern California High Frequency Acoustic Recording Package (HARP) locations:
 ![Southern California High Frequency Acoustic Recording Package (HARP) locations](https://github.com/m1alksne/WhaleSongNet/blob/main/reports/figures/site_map.jpg)
-
-## Eastern North Pacific Blue Whale Song Spectrograms:
-![spectrogram](https://github.com/m1alksne/WhaleSongNet/blob/main/reports/figures/spectrogram_74_DCPP01A_d01_121109_191242.d100.x.png)
-![spectrogram](https://github.com/m1alksne/WhaleSongNet/blob/main/reports/figures/spectrogram_84_DCPP01A_d01_121112_122652.d100.x.png)
 
 ## WhaleSongNet Directory Structure:
 ```
@@ -62,3 +58,24 @@ WhaleSongNet/
     └── visualization  <- Scripts to create exploratory and results oriented visualizations
         └── visualize.py
 ```
+
+## Setup
+
+1. Clone the Repository:
+
+git clone  https://github.com/m1alksne/WhaleSongNet.git
+cd WhaleSongNet
+
+2. (optional) Create a Virtual Environment:
+conda create -n whalesongnet pyhton=3.8
+
+conda activate whalesongnet
+
+3. Install Dependencies:
+
+conda install --file requirements.txt
+
+4. Download Data
+note, this will take a while! The raw .WAV files are available on [figshare](https://figshare.com/articles/dataset/Low-frequency_HARP_recordings_from_Southern_California_Bight/25433875)
+
+python src/data/download_data.py
