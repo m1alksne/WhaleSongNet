@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ![Blue whale fluking](https://github.com/m1alksne/WhaleSongNet/blob/main/reports/figures/blue_whale_CalCOFI.JPG)
-Blue whale off the coast of San Diego
+Blue whale off the coast of San Diego.
 
 Photo credit: Katherine Whitaker
 
@@ -51,12 +51,10 @@ WhaleSongNet/
     |	└── modify_annotations.py
     │
     ├── models         <- Scripts to train models and then use trained models to make
-    │   │                 predictions
-    │   ├── predict.py
-    │   └── train.py
-    │
-    └── visualization  <- Scripts to create exploratory and results oriented visualizations
-        └── visualize.py
+        │                 predictions
+        ├── predict.py
+        └── train.py
+   
 ```
 
 ## Setup
@@ -69,7 +67,7 @@ WhaleSongNet/
 
 2. (optional) Create a Virtual Environment:
 
-	```conda create -n whalesongnet pyhton=3.8```
+	```conda create -n whalesongnet python=3.8```
 
 	```conda activate whalesongnet```
 
@@ -106,4 +104,13 @@ WhaleSongNet/
 
 	```python src/models/predict.py```
 
+## User information 
+
 The training, validation, and testing, clips are already included along with each epoch of the model. Depending on the use-case, step 5-6 may not be necessary. This model and surrounding data processing and evaluation workflows are meant for educational purposes. 
+
+To visualize labeled spectrograms:
+
+```jupyter notebook notebook/plot_spectrograms/plot_spectrogram.ipynb```
+
+![spec](https://github.com/m1alksne/WhaleSongNet/blob/main/reports/figures/spectrogram_74_DCPP01A_d01_121109_191242.d100.x.png)
+![spec](https://github.com/m1alksne/WhaleSongNet/blob/main/reports/figures/spectrogram_84_DCPP01A_d01_121112_122652.d100.x.png)
