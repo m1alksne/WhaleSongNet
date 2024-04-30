@@ -77,6 +77,8 @@ WhaleSongNet/
 
 	```conda install --file requirements.txt```
 
+## Prepare the Data
+
 4. Download Data:
 
 	*note, this will take a while! The raw .WAV files are available on [figshare](https://figshare.com/articles/dataset/Low-frequency_HARP_recordings_from_Southern_California_Bight/25433875)
@@ -89,6 +91,8 @@ WhaleSongNet/
 	a. ```python src/data/make_hotclips.py```
 
 	b. ``` python src/data/make_dataset.py```
+
+## Train and Test the Model:
 
 6. Train the Model:
 
