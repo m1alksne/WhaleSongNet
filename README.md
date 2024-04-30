@@ -64,9 +64,11 @@ WhaleSongNet/
 1. Clone the Repository:
 
 	```git clone  https://github.com/m1alksne/WhaleSongNet.git```
+
 	```cd WhaleSongNet```
 
 2. (optional) Create a Virtual Environment:
+
 	```conda create -n whalesongnet pyhton=3.8```
 
 	```conda activate whalesongnet```
@@ -77,7 +79,13 @@ WhaleSongNet/
 
 4. Download Data:
 
-*note, this will take a while! The raw .WAV files are available on [figshare](https://figshare.com/articles/dataset/Low-frequency_HARP_recordings_from_Southern_California_Bight/25433875)
+	*note, this will take a while! The raw .WAV files are available on [figshare](https://figshare.com/articles/dataset/Low-frequency_HARP_recordings_from_Southern_California_Bight/25433875)
+
 
 	```python src/data/download_data.py```
+
+5. Preprocess the Data:
+	a. ```python src/data/make_hotclips.py```
+	b. ``` python src/data/make_dataset.py```
+
 
