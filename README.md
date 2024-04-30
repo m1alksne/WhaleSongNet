@@ -75,8 +75,9 @@ WhaleSongNet/
 
 	```conda install --file requirements.txt```
 
-4. Download Data
-note, this will take a while! The raw .WAV files are available on [figshare](https://figshare.com/articles/dataset/Low-frequency_HARP_recordings_from_Southern_California_Bight/25433875)
+4. Download Data:
+
+*note, this will take a while! The raw .WAV files are available on [figshare](https://figshare.com/articles/dataset/Low-frequency_HARP_recordings_from_Southern_California_Bight/25433875)
 
 	```python src/data/download_data.py```
 
