@@ -15,8 +15,9 @@ This repository details how to train, validate, and test a ResNet-18 CNN to clas
 Central and Southern California High Frequency Acoustic Recording Package (HARP) locations:
 ![Southern California High Frequency Acoustic Recording Package (HARP) locations](https://github.com/m1alksne/WhaleSongNet/blob/main/reports/figures/site_map.jpg)
 
-Eastern North Pacific Blue Whale Song Spectrogram:
-![spectrogram](https://github.com/m1alksne/WhaleSongNet/blob/main/reports/figures/spectrogram_1_DCPP01A_d01_121112_122652.d100.x.png)
+Eastern North Pacific Blue Whale Song Spectrograms:
+![spectrogram](https://github.com/m1alksne/WhaleSongNet/blob/main/reports/figures/spectrogram_74_DCPP01A_d01_121109_191242.d100.x.png)
+![spectrogram](https://github.com/m1alksne/WhaleSongNet/blob/main/reports/figures/spectrogram_84_DCPP01A_d01_121112_122652.d100.x.png)
 
 ## WhaleSongNet Directory Structure:
 ```
