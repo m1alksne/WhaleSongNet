@@ -5,6 +5,7 @@
 
 ![Blue whale fluking](https://github.com/m1alksne/WhaleSongNet/blob/main/reports/figures/blue_whale_CalCOFI.JPG)
 Blue whale fluking up off the coast of San Diego
+
 Photo credit: Katherine Whitaker
 
 ## Overview
@@ -13,6 +14,9 @@ This repository details how to train, validate, and test a ResNet-18 CNN to clas
 
 Central and Southern California High Frequency Acoustic Recording Package (HARP) locations:
 ![Southern California High Frequency Acoustic Recording Package (HARP) locations](https://github.com/m1alksne/WhaleSongNet/blob/main/reports/figures/site_map.jpg)
+
+Eastern North Pacific Blue Whale Song Spectrogram:
+![spectrogram](https://github.com/m1alksne/WhaleSongNet/blob/main/reports/figures/spectrogram_1_DCPP01A_d01_121112_122652.d100.x.png)
 
 ## WhaleSongNet Directory Structure:
 ```
