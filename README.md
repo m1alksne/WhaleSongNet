@@ -106,7 +106,7 @@ WhaleSongNet/
 
 ## User information 
 
-The training, validation, and testing, clips are already included along with each epoch of the model. Depending on the use-case, step 5-6 may not be necessary. The trained model and the surrounding data processing and evaluation workflows are meant to be used for educational purposes. This workflow is flexible and model hyper-parameters are easy to fine-tune (in the train.py script). The overall workflow can also be modified to retrain the model on a different acoustic dataset, which has implications for broadening the scope of computer vision accessibility to the bioacousitcs community!
+The training, validation, and testing clips are already included along with each epoch of the model. Depending on the use-case, step 5-6 may not be necessary. The trained model and the surrounding data processing and evaluation workflows are meant to be used for educational purposes. This workflow is flexible and model hyper-parameters are easy to fine-tune (in the train.py script). The overall workflow can also be modified to retrain the model on a different acoustic dataset, which has implications for broadening the scope of computer vision accessibility to the bioacousitcs community!
 
 To visualize labeled spectrograms:
 
@@ -114,3 +114,7 @@ To visualize labeled spectrograms:
 
 ![spec](https://github.com/m1alksne/WhaleSongNet/blob/main/reports/figures/spectrogram_74_DCPP01A_d01_121109_191242.d100.x.png)
 ![spec](https://github.com/m1alksne/WhaleSongNet/blob/main/reports/figures/spectrogram_84_DCPP01A_d01_121112_122652.d100.x.png)
+
+## Acknowledgements:
+
+This work was made possible with the support of the [Resnick Sustainability Institute](https://resnick.caltech.edu/), the [Computer Vision for Ecology summer workshop](https://cv4ecology.caltech.edu/), the [National Defense and Graduate Engineering Fellowship](https://ndseg.org/), the [Kitzes Lab](https://github.com/kitzeslab), and the [Scripps Acoustic Ecology Lab](https://sael.ucsd.edu/)
