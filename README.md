@@ -106,7 +106,7 @@ WhaleSongNet/
 
 ## User information 
 
-The training, validation, and testing, clips are already included along with each epoch of the model. Depending on the use-case, step 5-6 may not be necessary. This model and surrounding data processing and evaluation workflows are meant for educational purposes. 
+The training, validation, and testing, clips are already included along with each epoch of the model. Depending on the use-case, step 5-6 may not be necessary. The trained model and the surrounding data processing and evaluation workflows are meant to be used for educational purposes. This workflow is flexible and model hyper-parameters are easy to fine-tune (in the train.py script). The overall workflow can also be modified to retrain the model on a different acoustic dataset, which has implications for broadening the scope of computer vision accessibility to the bioacousitcs community!
 
 To visualize labeled spectrograms:
 
