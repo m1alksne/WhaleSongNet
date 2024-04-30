@@ -11,7 +11,8 @@ Central and Southern California High Frequency Acoustic Recording Package (HARP)
 ![Southern California High Frequency Acoustic Recording Package (HARP) locations](https://github.com/m1alksne/WhaleSongNet/blob/main/reports/figures/site_map.jpg)
 
 ## WhaleSongNet Table of Contents:
-
+```
+WhaleSongNet/
 ├── LICENSE
 ├── Makefile           <- Makefile with commands like `make data` or `make train`
 ├── README.md          <- The top-level README for users.
@@ -52,7 +53,8 @@ Central and Southern California High Frequency Acoustic Recording Package (HARP)
     │
     └── visualization  <- Scripts to create exploratory and results oriented visualizations
         └── visualize.py
-
+```
+more
 ```
 project_directory/
 |-- LICENSE
