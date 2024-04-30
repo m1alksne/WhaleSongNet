@@ -46,7 +46,7 @@ def main():
     val_ap_B_history = []
 
     # Iterate over each epoch of the saved model
-    for epoch in range(11):  # assuming you have 11 epochs
+    for epoch in range(2):  # assuming you have 11 epochs
         # Load the model for the current epoch
         model_path = '../../models/'f'epoch-{epoch}.model'
         model = opensoundscape.ml.cnn.load_model(model_path)

@@ -1,6 +1,6 @@
 # WhaleSongNet: Blue Whale Song Classifier
 
-![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ![Blue whale fluking](https://github.com/m1alksne/WhaleSongNet/blob/main/reports/figures/blue_whale_CalCOFI.JPG)
@@ -52,8 +52,11 @@ WhaleSongNet/
     │
     ├── models         <- Scripts to train models and then use trained models to make
         │                 predictions
-        ├── predict.py
-        └── train.py
+        ├── train.py
+	├── evaluate_model.py
+        └── predict.py
+
+	
    
 ```
 
