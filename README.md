@@ -90,7 +90,7 @@ WhaleSongNet/
 
 	a. ```python src/data/make_hotclips.py```
 
-	b. ``` python src/data/make_dataset.py```
+	b. ```python src/data/make_dataset.py```
 
 ## Train and Test the Model:
 
@@ -105,3 +105,5 @@ WhaleSongNet/
 8. Make Predictions:
 
 	```python src/models/predict.py```
+
+The training, validation, and testing, clips are already included along with each epoch of the model. Depending on the use-case, step 5-6 may not be necessary. This model and surrounding data processing and evaluation workflows are meant for educational purposes. 
