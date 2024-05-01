@@ -109,7 +109,13 @@ WhaleSongNet/
 
 ## User information 
 
-The training, validation, and testing clips are already included along with each epoch of the model. Depending on the use-case, step 5-6 may not be necessary. The trained model and surrounding data processing and evaluation workflows are meant to be used for educational purposes. This workflow is flexible and model hyper-parameters are easy to fine-tune (in the train.py script). The overall workflow can also be modified to retrain the model on a different acoustic dataset, which has implications for broadening the scope of computer vision accessibility to the bioacousitcs community!
+The training, validation, and testing clips are already included along with each epoch of the model. Depending on the use-case, step 5-6 may not be necessary. The trained model and surrounding data processing and evaluation workflows are meant to be used for educational purposes. This workflow is flexible and model hyper-parameters are easy to fine-tune (in the train.py script). The overall workflow can also be modified to retrain the model on a different acoustic dataset. The original annotations are generated using LoggerPro in [Triton](https://github.com/MarineBioAcousticsRC/Triton). If a new user has audio annotations in a similar format, they can use this as a guide to train, validate, and test a CNN model on their dataset. 
+
+Remember to always visualize your labels before you train a model (see below)! 
+
+& Make sure your training data is different/separate from your testing data!
+
+The main goal of this repository is to increase computer vision accessibility in the bioacoustics community. 
 
 To visualize labeled spectrograms:
 
