@@ -55,8 +55,6 @@ WhaleSongNet/
         ├── train.py
 	├── evaluate_model.py
         └── predict.py
-
-	
    
 ```
 

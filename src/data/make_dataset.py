@@ -102,3 +102,5 @@ test_clips_final = pd.concat([filtered_test, test_clips_noise]) # concatenate da
 test_clips_final.to_csv(save_path / "test.csv", index=False)
         
         
+#train_clips['file'] = train_clips.file.str.replace("..\\..\\data\\raw\\", data_path)
+#val_clips['file'] = val_clips.file.str.replace("..\\..\\data\\raw\\", data_path)

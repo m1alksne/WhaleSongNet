@@ -62,7 +62,7 @@ def main():
     ax.set_title('Precision-Recall Curve B calls test data')
     ax.set_ylabel('Precision')
     ax.set_xlabel('Recall')
-    plt.savefig('../../reports/figures/B_call_PR_curve.png', format='png', bbox_inches='tight', pad_inches=0.1)
+    plt.savefig('../../reports/figures/B_call_PR_curve.svg', format='svg', bbox_inches='tight', pad_inches=0.1)
     plt.show()
 
     # plot score distribution B calls 
@@ -77,7 +77,7 @@ def main():
     plt.semilogy()
     plt.legend(loc='upper right')
     plt.title('B call prediction scores test data')
-    plt.savefig('../../reports/figures/B_call_prediction_histogram.png', format='png', bbox_inches='tight', pad_inches=0.1)
+    plt.savefig('../../reports/figures/B_call_prediction_histogram.svg', format='svg', bbox_inches='tight', pad_inches=0.1)
 
     
     
